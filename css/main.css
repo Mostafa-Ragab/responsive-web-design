@@ -30,12 +30,24 @@
   margin-left: 1%;
   margin-right: 1%;
 }
+.header .overlay .order {
+  border: 2px solid #fff;
+  font-size: 24px;
+  padding: 20px;
+  margin: 30px 1% 0;
+}
+.clearFix {
+  clear: both;
+}
 /* End Header */
 
 @media (max-width: 767px) {
   .header .overlay .plan {
     float: none;
     margin: 0 auto 20px;
+  }
+  .visible-xs {
+    display: block !important;
   }
 }
 @media (min-width: 1200px) {
@@ -52,4 +64,11 @@
 .text-center {
   text-align: center;
 }
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-l {
+  display: none;
+}
+
 /* End My Framework */
